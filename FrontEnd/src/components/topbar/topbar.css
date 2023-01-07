@@ -1,0 +1,164 @@
+.topbarContainer {
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background-color: rgb(39, 34, 34);
+}
+
+.topbarLeft {
+  flex: 2;
+}
+
+.topbarCenter {
+  flex: 3;
+}
+
+.topbarRight {
+  flex: 9;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-style: 14px;
+  cursor: pointer;
+}
+
+.topbaricons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+.topbarIconBadge {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 50%;
+  color: bisque;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+.topbarImage {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.topbarImage:hover{
+  width: 36px;
+  height: 36px;
+  transition: 0.3s ease-in-out;
+}
+
+.logo {
+  font-weight: bold;
+  font-family: MainFont;
+  /* cursor: pointer; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: brown;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  border: none;
+  width: 80%;
+}
+
+.searchInput:focus {
+  outline: none;
+}
+
+.c-t {
+  background-color: tomato;
+  color: black;
+  border-radius: 10px;
+}
+.c-f {
+  background-color: bisque;
+  color: black;
+  border-radius: 15px;
+}
+.c-b {
+  background-color: #3f51b5;
+  color: black;
+  border-radius: 5px;
+}
+.c-g {
+  background-color: yellowgreen;
+  color: black;
+  border-radius: 5px;
+}
+.c-p {
+  background-color: gray;
+  color: black;
+  border-radius: 5px;
+}
+.c-br {
+  background-color: orange;
+  color: black;
+  border-radius: 4px;
+}
+.c-ro {
+  background-color: rgb(62, 207, 207);
+  color: black;
+  border-radius: 5px;
+}
+.c-ro:hover{
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+.c-t:hover {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.c-f:hover {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+.c-b:hover {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+
+.c-g:hover {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+.c-p:hover {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}
+.c-br:hover {
+  font-size: 30px;
+  transition: 0.3s ease-in-out;
+}

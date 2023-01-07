@@ -1,0 +1,17 @@
+.feed {
+  flex: 7;
+}
+
+.feedWrapper {
+  padding: 20px;
+  margin-left: 15px;
+  margin-top: -39px;
+}
+
+
+@media (max-width: 450px){
+  .feedWrapper{
+    width: 100%;
+    margin-left: 0px;
+  }
+}

@@ -1,0 +1,28 @@
+.nameAndPicWrapperRoom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.shareProfileImageRoom{
+    border: 2px solid wheat;
+    width: 70px;
+    height: 70px;
+}
+.nameAndEmailWrapperRoom{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+}
+.roomHead{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.roomId{
+    /* margin-left: 30px; */
+    display: flex;
+    font-family: CustomFont;
+    justify-content: center;
+    font-size: large;
+    font-weight: bold;
+}

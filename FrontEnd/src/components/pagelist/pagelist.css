@@ -1,0 +1,26 @@
+.pagelist {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.pagenumber {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon {
+  color: antiquewhite;
+  margin: 10px;
+  cursor: pointer;
+}
+.icon:hover {
+  color: tomato;
+}
+
+.p {
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+}

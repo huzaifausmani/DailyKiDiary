@@ -1,0 +1,17 @@
+.shareRoom {
+  width: 100%;
+  display: flex;
+  height: calc(100vh - 165px);
+  justify-content: center;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.shareRoomWrapper{
+  width: 80%;
+  border-radius: 30px;
+  border: 2px solid rgb(42, 185, 185);
+  background-color: rgb(42, 185, 185);
+  color: white;
+  padding: 15px;
+}

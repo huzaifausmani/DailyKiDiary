@@ -1,0 +1,26 @@
+.homeContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+@media (max-width:780px){
+  .homeContainer{
+    flex-direction: column;
+  }
+}
+@font-face {
+  font-family: MainFont;
+  src: url(./../../font/PlayListScript/PlaylistScript.ttf);
+  font-weight: normal;
+}
+@font-face{
+  font-family: CustomFont;
+  src: url(./../../font/Raleway/Raleway-VariableFont_wght.ttf);
+  font-weight: normal;
+}
+body {
+  background-color: rgb(29, 25, 25);
+  background-image: url(./../../images/i-like-food.svg);
+  color: wheat;
+  font-family: MainFont;
+}

@@ -1,0 +1,51 @@
+.chatfrnd{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+
+.frndname{
+    margin-left: 10px;
+    color: black;
+    font-size: large;
+}
+
+
+.frndimage{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid brown;
+}
+
+.frndimagee{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    border:2px solid wheat;
+}
+.frndImageCon{
+    position: relative;
+}
+
+.onlinestatusbadge{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: limegreen;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
+}
+
+.onlinestatusbadge.redBadge{
+    background-color: red;
+    border: 2px solid white;
+}

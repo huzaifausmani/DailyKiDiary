@@ -1,0 +1,40 @@
+.room{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roomWrapper{
+    display: flex;
+    flex-direction: column;
+    margin: 10% 0px;
+    background-color: rgb(42, 185, 185);
+    padding: 2%;
+    border: 2px solid orange;
+    border-radius: 30px;
+}
+.div1{
+    margin: 10px 0px;
+    display: flex;
+}
+
+.roomtextfield{
+    border-radius: 5px;
+    border: 1px solid orange;
+    margin-right: 5px;
+    color: orange;
+}
+.roomtextfield:focus{
+    outline: 1px solid orange;
+}
+.upr{
+    margin-top: 0.5px;
+    background-color: orange;
+    color:brown;
+}
+
+.createroom{
+    margin-top: 1px;
+    background-color: orange;
+    color: brown;
+}

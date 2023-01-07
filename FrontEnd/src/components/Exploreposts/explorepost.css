@@ -1,0 +1,76 @@
+.exploreWrapper{
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: black;
+}
+
+@media (max-width: 780px) {
+    .exploreWrapper{
+        width: 100%;
+    }   
+}
+
+.other{
+    width: 100%;
+    justify-content: center;
+}
+
+.clr{
+    background-color:  tomato;
+    color: white;
+}
+
+.clf{    
+    background-color:  bisque;
+    color: brown;
+}
+
+.likelook{
+    margin: 0 10px;
+}
+.liked{
+    color: red;
+    margin: 0 10px;
+}
+.liked:hover{
+    font-size: 25px;
+}
+
+.likelook:hover{
+    font-size: 25px;
+}
+.counter{
+    font-size: smaller;
+}
+
+.postContent{
+    margin: 0px 10px;
+    font-family: CustomFont;
+    font-size: large;
+    color: whitesmoke;
+    font-style: oblique;
+}
+
+.followerContent{
+    margin: 0px 10px;
+    font-family: CustomFont;
+    font-size: large;
+    color: brown;
+    font-style: oblique;
+    font-weight: bold;
+}
+.card{
+    border-radius: 30px;
+    box-shadow: 6px 4px 15px 0px rgba(0,0,0,0.79);
+}
+.round{
+    border: 2px solid wheat;
+    border-radius: 30px;
+}
+
+.roundf{
+    border: 2px solid brown;
+    border-radius: 30px;
+}

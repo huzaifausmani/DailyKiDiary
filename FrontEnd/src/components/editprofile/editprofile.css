@@ -1,0 +1,43 @@
+.edit {
+  width: 50%;
+  margin-top: -50px;
+  font-family: CustomFont;
+  font-size: medium;
+  background-color: wheat;
+  border-radius: 30px;
+  border: 2px solid tomato;
+  height: 240px;
+}
+
+@media (max-width: 720px) {
+  .edit {
+    width: 90%;
+    margin-top: 10px;
+  }
+}
+
+.pr {
+  margin-top: 10px;
+  width: 100%;
+}
+
+.editBtn {
+  margin-top: 30px;
+  border-color: tomato;
+  color: tomato;
+  font-family: MainFont;
+  font-size: large;
+  width: 100%;
+  height: 37px;
+}
+
+.editBtn:hover {
+  background-color: tomato;
+  border-color: tomato;
+  color: black;
+}
+
+.dir {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,15 @@
+.nameAndPicWrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.shareProfileImage{
+    border: 2px solid wheat;
+    width: 70px;
+    height: 70px;
+}
+.nameAndEmailWrapper{
+    display: flex;
+    flex-direction: column;
+    color: wheat;
+}
